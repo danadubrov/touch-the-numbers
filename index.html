@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Touch The Number</title>
+</head>
+
+<body>
+    <h1 class="title">Let's Count!</h1>
+    <h2>Choose Your Level:</h2>
+    <div class="levels"> <button class="btn" onclick="levelClicked(this)" data-level="4">EASY</button><button class="btn" onclick="levelClicked(this)" data-level="5">HARD</button><button class="btn"onclick="levelClicked(this)" data-level="6">EXTREME</button> </div>
+    <div class="timer">0:000</div>
+    </br>
+    <table>
+        <tbody class="board"></tbody>
+    </table>
+    <div class ="restart"></div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

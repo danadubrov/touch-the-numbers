@@ -1,0 +1,72 @@
+h2{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(248, 117, 161); 
+    margin-top: 0px;
+    
+}
+.levels{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.btn{
+    background-color: white;
+    color: rgb(102, 76, 85)k;
+    border: 2px solid #f7ac56;
+    margin: 5px;
+    border-radius: 10px;
+    font-weight: bolder;
+    outline:none;
+}
+
+.btn:hover{
+    background-color: #f7ac56;
+    color: white;
+    
+}
+
+
+.title{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(248, 117, 161);
+    margin-bottom: 10px;
+}
+
+table {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.unclicked {
+    font-size: 30px;
+    color: white;
+    background-color: rgb(248, 117, 161);
+    padding: 10px;
+}
+.unclicked:hover{
+    background-color: rgb(241, 188, 206);
+    cursor: pointer;
+}
+
+.clicked {
+    font-size: 30px;
+    color:  rgb(248, 117, 161);
+    background-color: rgb(102, 76, 85);
+    padding: 10px;
+}
+
+.timer{
+    margin: auto;
+    border-radius: 25px;
+    font-size: 50px;
+    text-align: center;
+    padding: 5px;
+    width: 250px;
+    background-color: rgb(102, 76, 85); 
+    color: white;
+}
+.restart{
+    text-align: center;
+    margin-top: 10px;
+}
